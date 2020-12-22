@@ -40,7 +40,7 @@ else
     for i in $(((_len_array/2)-1))   # it is a n*2 array so the real lenght is /2 (-1 for the index)
     do
         cd  "$_path${folder[$i,0]}"
-        git add *
+        git add -A
         git commit -m "$commit_string${folder[$i,1]}"
         git push origin
         git checkout $_main_repo
