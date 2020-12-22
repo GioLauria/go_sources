@@ -6,4 +6,8 @@ func main(){
 	y="This is another string"
 	fmt.Println(x)
 	fmt.Println(y)
+	
+	var z string
+	z=x+y
+	fmt.Println(z)
 }
