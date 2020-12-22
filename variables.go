@@ -2,5 +2,8 @@ package main
 import "fmt"
 func main(){
 	var x string = "This is a string"
+	var y string
+	y="This is another string"
 	fmt.Println(x)
+	fmt.Println(y)
 }
