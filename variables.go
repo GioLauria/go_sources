@@ -10,4 +10,8 @@ func main(){
 	var z string
 	z=x+y
 	fmt.Println(z)
+	fmt.Println(x==z)
+
+	w:="3"    // short form. Automatic type inferral
+	fmt.Println(w)
 }
